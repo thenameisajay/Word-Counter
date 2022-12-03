@@ -13,11 +13,11 @@ My program has the following features :
 followed by a space and the name of the file.
 
 • Searches through the file for occurrences of the specified word.
-– The word should only be counted when it appears as a whole word. For example, when searching for hope , the word orthopedic should not count as a match.
-– To keep things simple, a word is defined as a continuous sequence of characters from the ranges A–Z, a–z, 0–9, and the underscore ( _ ) character. All other characters should be ignored. Hence, they're counts as two separate words they and re .
+– The word should only be counted when it appears as a whole word. For example, when searching for hope , the word orthopedic does not count as a match.
+– To keep things simple, a word is defined as a continuous sequence of characters from the ranges A–Z, a–z, 0–9, and the underscore ( _ ) character. All other characters are to be ignored. Hence, they're counts as two separate words they and re .
 
 • Printing the results to the terminal.
-– The message printed should have the form “The word ‘<word>’ appears <number> time(s).”
+– The message printed has the form “The word ‘<word>’ appears <number> time(s).”
 – For example:
 The word 'animal' appears 17 times.
 The word 'lugubrious' appears 1 time. 
