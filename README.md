@@ -1,5 +1,23 @@
 # Word-Counter
 
+---
+
+## Description 
+
+Word-Counter is a Java program that searches for specified words in a given text file and counts their occurrences. It provides a simple yet powerful command-line interface with several features, including searching for multiple words at once.
+
+To use the program, simply provide the name and path of the text file to search and the word(s) to look for as command-line arguments. The program will then search for occurrences of the specified words in the file and print the results to the terminal.
+
+If either argument is missing, the program shows an output message describing the correct usage. If the specified file does not exist, it displays an error message indicating that the file was not found.
+
+The program also supports searching for multiple words at once. When multiple words are specified, the results are displayed in a table format, with columns for each word and their respective counts. The table view is dynamically sized to fit the longest word and count.
+
+Overall, Word-Counter provides a simple yet effective way to search for and count words in text files.
+
+
+---
+
+
 My program has the following features :
 
 • Accept two arguments from the command line.
@@ -25,15 +43,16 @@ The word 'lugubrious' appears 1 time.
 
 – All command-line arguments from the second argument onwards are treated as words to search for.
 – If multiple words are specified, instead of printing the message specified above, the results are shown as a table in the following form:
-|---------|-------| 
-| WORD    | COUNT | 
-|---------|-------|
-|round    | 17    | 
-| ability | 0     |
-| enemy   | 1     |
-|---------|-------|
-|TOTAL    | 18    |
-|---------|-------|
-
+<ul>
+<li> |---------|-------| 
+<li> | WORD    | COUNT | 
+<li> |---------|-------|
+<li> |round    | 17    | 
+<li> | ability | 0     |
+<li> | enemy   | 1     |
+<li> |---------|-------|
+<li> |TOTAL    | 18    |
+<li> |---------|-------|
+</ul>
 – The columns in this view adapts to the lengths of the words and numbers shown: they should be wide enough to display all words and numbers with at least one space on either side, as shown.
 – Words and column-headers should be left-aligned, while numbers should be right- aligned.
