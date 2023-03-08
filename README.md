@@ -51,8 +51,10 @@ To install :
 * The word 'lugubrious' appears 1 time. 
 * Support searching for multiple words at once.
 
-– All command-line arguments from the second argument onwards are treated as words to search for.
-– If multiple words are specified, instead of printing the message specified above, the results are shown as a table in the following form:
+* All command-line arguments from the second argument onwards are treated as words to search for.
+* If multiple words are specified, instead of printing the message specified above, the results are shown as a table in the following form:
+* The columns in this view adapts to the lengths of the words and numbers shown: they should be wide enough to display all words and numbers with at least one space on either side, as shown.
+* Words and column-headers should be left-aligned, while numbers should be right-aligned.
 
 <table>
 <thead>
@@ -66,7 +68,7 @@ To install :
 </tr>
 <tr class="even">
 <td style="text-align: left;">ability</td>
-<td> <td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr> 
 <tr class="odd">
 <td style="text-align: left;">enemy</td>
@@ -79,5 +81,19 @@ To install :
 </tbody>
 </table>
 
-– The columns in this view adapts to the lengths of the words and numbers shown: they should be wide enough to display all words and numbers with at least one space on either side, as shown.
-– Words and column-headers should be left-aligned, while numbers should be right- aligned.
+---
+## CONTRIBUTION GUIDELINES
+<ul>
+<li> Clone the repository from GitHub.
+<li> Create a new branch for your feature or bug fix.
+<li> Implement your feature or bug fix.
+<li> Commit your changes and push to your branch on the GitHub server.
+<li> Submit a merge request to merge your changes into the main branch.
+</li>
+</ul>
+
+---
+
+## LICENSE
+This project is done part of coursework of <strong> CS5001 - Object-Oriented Programming </strong> of the <strong> Computer Science Dept of University of St.Andrews.</strong>
+This project is licensed under the <code> MIT License </code> - see the <code> LICENSE.md </code> file for details.
